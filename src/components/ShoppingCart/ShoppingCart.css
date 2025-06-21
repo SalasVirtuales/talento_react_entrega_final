@@ -1,0 +1,122 @@
+.shopping-cart {
+  background-color: var(--card-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+  position: sticky; 
+  top: 20px; 
+}
+
+.shopping-cart h4 {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.75rem;
+}
+
+.shopping-cart .list-group-item {
+  padding: 0.75rem 0; 
+  border-bottom: 1px solid var(--border-color);
+}
+.shopping-cart .list-group-item:last-child {
+  border-bottom: none;
+}
+
+
+.shopping-cart .list-group-item h6 {
+  font-size: 0.95rem;
+  font-weight: 500; 
+  color: var(--text-color);
+  margin-bottom: 0.2rem;
+}
+
+.shopping-cart .list-group-item small.text-muted {
+  font-size: 0.85rem;
+  color: #6c757d !important;
+}
+
+.shopping-cart .btn-outline-secondary,
+.shopping-cart .btn-outline-danger {
+  padding: 0.25rem 0.5rem; 
+  font-size: 0.8rem; 
+  border-radius: 4px;
+  margin: 0 0.15rem; 
+}
+
+.shopping-cart .btn-outline-secondary:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.shopping-cart .btn-outline-danger:hover {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+
+.shopping-cart .list-group-item span.text-muted {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+.shopping-cart .list-group-item.d-flex.justify-content-between:last-of-type { 
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+  border-top: 2px solid var(--primary-color); 
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.shopping-cart .btn-success.w-100 { 
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 50px; 
+  transition: background-color 0.3s ease;
+}
+
+.shopping-cart .btn-success.w-100:hover {
+  background-color: #e68a00; 
+  border-color: #e68a00;
+}
+
+.shopping-cart p { 
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: #6c757d;
+}
+
+
+@media (max-width: 767.98px) {
+  .shopping-cart {
+    position: static; 
+    width: 100%;      
+    top: auto;        
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+  
+  }
+
+  .shopping-cart h4 {
+  
+  }
+
+  
+  .shopping-cart .btn-outline-secondary,
+  .shopping-cart .btn-outline-danger {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  .shopping-cart .btn-success.w-100 {
+    padding: 0.85rem;
+    font-size: 1.1rem;
+  }
+}

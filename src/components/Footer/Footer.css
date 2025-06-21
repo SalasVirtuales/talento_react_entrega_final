@@ -1,0 +1,75 @@
+
+.bg-dark.text-white { 
+  background-color: var(--primary-color) !important;
+  color: #EAEAEA; 
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.bg-dark.text-white h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFFFFF; 
+  margin-bottom: 1.25rem; 
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bg-dark.text-white .list-unstyled a {
+  color: #CED4DA; 
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease-in-out;
+  padding: 0.25rem 0;
+  display: inline-block;
+}
+
+.bg-dark.text-white .list-unstyled a:hover {
+  color: var(--accent-color); 
+  text-decoration: none; 
+}
+
+.bg-dark.text-white .input-group .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  border-radius: 20px 0 0 20px; 
+}
+
+.bg-dark.text-white .input-group .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-dark.text-white .input-group .btn-secondary { 
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: #FFFFFF;
+  font-weight: 500;
+  border-radius: 0 20px 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.bg-dark.text-white .input-group .btn-secondary:hover {
+  background-color: #e68a00; 
+  border-color: #e68a00;
+}
+
+.bg-dark.text-white .me-3 svg { 
+  font-size: 1.5rem; 
+  transition: color 0.3s ease;
+}
+
+.bg-dark.text-white .me-3 svg:hover {
+  color: var(--accent-color); 
+}
+
+.bg-dark.text-white hr {
+  border-color: rgba(255, 255, 255, 0.15);
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bg-dark.text-white .text-center small {
+  font-size: 0.85rem;
+  color: #CED4DA;
+}

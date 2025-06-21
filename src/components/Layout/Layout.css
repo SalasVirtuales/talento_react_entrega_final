@@ -1,0 +1,5 @@
+.main-content {
+  
+  min-height: calc(100vh - 300px); 
+  padding-bottom: 2.5rem; 
+}

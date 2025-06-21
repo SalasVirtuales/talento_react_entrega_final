@@ -1,0 +1,50 @@
+
+.main-nav.navbar {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #444;
+}
+
+.main-nav .navbar-brand img {
+  height: 35px; 
+  
+}
+
+.main-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.main-nav .nav-link:hover,
+.main-nav .nav-link:focus {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.main-nav .nav-link.active {
+  color: #FFFFFF;
+  font-weight: 700;
+  
+}
+
+.main-nav .nav-link.text-danger,
+.main-nav .nav-link.text-danger:hover {
+  color: var(--danger-color) !important; 
+}
+
+
+.main-nav .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-nav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.main-nav .navbar-nav.ms-auto .nav-link svg {
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
