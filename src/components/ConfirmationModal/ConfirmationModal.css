@@ -1,0 +1,19 @@
+/* Styles for ConfirmationModal content if needed */
+.confirmation-modal-content p {
+  margin-bottom: 1rem; /* Space below the message */
+  font-size: 1rem; /* Readable text size */
+}
+
+.confirmation-modal-actions {
+  padding-top: 1rem; /* Space above the buttons */
+  /* border-top: 1px solid #dee2e6; /* Optional: separator line */
+}
+
+/* Ensure buttons have adequate spacing if not using Bootstrap's gap utility */
+.confirmation-modal-actions .btn + .btn {
+  margin-left: 0.5rem; /* Or use gap class on parent */
+}
+
+.confirmation-modal-actions .spinner-border-sm {
+    margin-right: 0.4em;
+}

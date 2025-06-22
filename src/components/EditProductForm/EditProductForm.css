@@ -1,0 +1,30 @@
+/* Basic styling for the edit form container if not using a generic modal component */
+.edit-product-form-container {
+    padding: 20px; /* Add some padding if it's directly in a modal body */
+    background-color: #fff; /* Ensure background for standalone or modal use */
+}
+
+/* Re-use AddProductForm styles if they are generic enough, or define specific ones */
+/* For example, if forms have a common structure: */
+.edit-product-form-container .form-label {
+    font-weight: 500;
+}
+
+.edit-product-form-container .invalid-feedback {
+    font-size: 0.875em;
+}
+
+.edit-product-form-container .btn-primary:disabled .spinner-border {
+    margin-right: 0.5em;
+}
+
+.edit-product-form-container .alert {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Add any specific styles for EditProductForm if needed */
+/* For example, if the layout of buttons is different */
+.edit-product-form-container .d-flex.justify-content-end {
+    margin-top: 1.5rem; /* More space above action buttons */
+}

@@ -1,0 +1,44 @@
+.add-product-form-container {
+    max-width: 600px; /* Or your preferred max-width */
+    margin: 30px auto; /* Adds some space around the form */
+    background-color: #f8f9fa; /* Light background for the card */
+    border-radius: 0.5rem; /* Softer edges */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+}
+
+.add-product-form-container .card-title { /* If you use a card title element */
+    margin-bottom: 1.5rem; /* More space below title */
+    font-weight: 500;
+    color: #343a40; /* Darker text for title */
+}
+
+.form-label {
+    font-weight: 500; /* Slightly bolder labels */
+    margin-bottom: 0.5rem; /* Space between label and input */
+}
+
+.form-control:disabled {
+    background-color: #e9ecef; /* Standard disabled background */
+    opacity: 1; /* Ensure text is readable */
+}
+
+.invalid-feedback {
+    display: block; /* Ensure it's always shown when error exists */
+    font-size: 0.875em; /* Standard Bootstrap error font size */
+    color: #dc3545; /* Standard Bootstrap danger color */
+}
+
+.btn-primary {
+    padding: 0.5rem 1rem; /* Comfortable padding for button */
+    font-size: 1rem; /* Standard button font size */
+}
+
+.btn-primary:disabled .spinner-border {
+    margin-right: 0.5em; /* Space between spinner and text */
+}
+
+/* Alert styling improvements */
+.alert {
+    margin-top: 1rem; /* Space above alerts */
+    border-radius: 0.375rem; /* Consistent with Bootstrap's new default */
+}

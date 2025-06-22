@@ -3,6 +3,7 @@ import Layout from './components/Layout/Layout';
 import HeroSection from './components/HeroSection/HeroSection';
 import ProductListingPage from './components/ProductListingPage/ProductListingPage';
 import ShoppingCart from './components/ShoppingCart/ShoppingCart';
+import { ProductProvider } from './contexts/ProductContext';
 import './App.css';
 
 function App() {
@@ -36,16 +37,17 @@ function App() {
   };
 
   return (
-    <Layout>
-      <HeroSection />
-      <div className="container-fluid px-md-5 mt-4">
-        <div className="row">
-          <div className="col-lg-9">
-            <ProductListingPage addToCart={addToCart} />
-          </div>
-          <div className="col-lg-3">
-            <ShoppingCart
-              cartItems={cartItems}
+    <ProductProvider>
+      <Layout>
+        <HeroSection />
+        <div className="container-fluid px-md-5 mt-4">
+          <div className="row">
+            <div className="col-lg-9">
+              <ProductListingPage addToCart={addToCart} />
+            </div>
+            <div className="col-lg-3">
+              <ShoppingCart
+                cartItems={cartItems}
               removeFromCart={removeFromCart}
               updateQuantity={updateQuantity}
             />
@@ -53,6 +55,7 @@ function App() {
         </div>
       </div>
     </Layout>
+  </ProductProvider>
   );
 }
 
