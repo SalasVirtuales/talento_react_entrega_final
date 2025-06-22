@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { ProductContext } from '../../contexts/ProductContext';
+import { ProductContext } from '../../contexts/ProductContext'; // Corrected path
 import './EditProductForm.css'; // Optional: if you need specific styles
 
 function EditProductForm({ product, onProductEdited, onCancel }) {
